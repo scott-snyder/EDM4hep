@@ -1,15 +1,9 @@
 {
   "version": 5,
-  "prev": "d77ed4e1c76a4fa945518793289a987cbd89c412",
-  "head": "bf03b9df3e2fea75972f1f4c6e83848a09336258",
-  "applied": [
-    "cmake"
-  ],
+  "prev": "a45f22eb7c59af5894e92b86f1e742b0d994cee6",
+  "head": "d592cddb58f1c191cf8faac799425340a4c5b69c",
+  "applied": [],
   "unapplied": [],
   "hidden": [],
-  "patches": {
-    "cmake": {
-      "oid": "bf03b9df3e2fea75972f1f4c6e83848a09336258"
-    }
-  }
+  "patches": {}
 }

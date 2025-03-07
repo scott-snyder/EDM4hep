@@ -1,7 +1,0 @@
-Bottom: 9b5913926d6879a968cf6b9df20df4928ce46aac
-Top:    18f98442e36af7519260d81da0df23479c162a9a
-Author: sss <sss@karma>
-Date:   2025-03-07 17:06:21 -0500
-
-Missing dependency on nlohmann_json.
-Needed to build with ROOT 6.34.00.
