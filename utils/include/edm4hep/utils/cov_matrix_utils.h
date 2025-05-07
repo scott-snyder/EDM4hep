@@ -14,7 +14,10 @@ namespace utils {
   namespace detail {
     // From c++23 this is functionality offered by the STL
 #if __cpp_lib_to_underlying
-    using to_index = std::to_underlying;
+    template <typename E>
+    constexpr auto to_index(E e) {
+      return std::to_underlying(e);
+    }
 #else
     // Otherwise it is simple enough to roll our own
     template <typename E>
