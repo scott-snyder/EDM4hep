@@ -1,8 +1,0 @@
-Bottom: 8e8a57b5c90978516fa2771950326bf14c5562c5
-Top:    8e8a57b5c90978516fa2771950326bf14c5562c5
-Author: sss <sss@karma>
-Date:   2025-06-04 15:17:33 -0400
-
-Fix compilation with C++23.
-
-Can't use using to give new names to functions.

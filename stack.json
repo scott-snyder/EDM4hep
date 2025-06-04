@@ -1,15 +1,9 @@
 {
   "version": 5,
-  "prev": "ae41524788484c1c9803bb367be3d67e23c8ff5c",
-  "head": "9f1ae43a782e251852b3af774494f656ee9e679c",
-  "applied": [
-    "cxx23"
-  ],
+  "prev": "6d4b726a2b9663050b51822b3ffcaef669753e6b",
+  "head": "292ccb837e1e8507bd101e6cb0425a927b983202",
+  "applied": [],
   "unapplied": [],
   "hidden": [],
-  "patches": {
-    "cxx23": {
-      "oid": "9f1ae43a782e251852b3af774494f656ee9e679c"
-    }
-  }
+  "patches": {}
 }
