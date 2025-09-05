@@ -1,11 +1,10 @@
 {
   "version": 5,
-  "prev": "1970f76bff3257519935838aced6be9f8d33b69f",
-  "head": "09602d0a5d1827f7611540bebf04fd7bc23b1488",
+  "prev": "c75e559622a80468542a795876b250c562ec7e0e",
+  "head": "7b53df05a3712d6e1773453ed6d13dc2339b56ab",
   "applied": [
     "danglewarn",
-    "nosystem",
-    "refresh-temp"
+    "nosystem"
   ],
   "unapplied": [],
   "hidden": [],
@@ -14,10 +13,7 @@
       "oid": "3b0ed15c7de987c5339c3f275ae2d9e81fcc28a9"
     },
     "nosystem": {
-      "oid": "8a257c442e93a9bbfa822304d805a195b99fd738"
-    },
-    "refresh-temp": {
-      "oid": "09602d0a5d1827f7611540bebf04fd7bc23b1488"
+      "oid": "7b53df05a3712d6e1773453ed6d13dc2339b56ab"
     }
   }
 }
