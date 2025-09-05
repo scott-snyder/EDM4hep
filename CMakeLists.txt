@@ -76,6 +76,16 @@ add_subdirectory(tools)
 add_subdirectory(python)
 add_subdirectory(test)
 
+# By default, the generated Target file will set up the include paths for
+# our libraries using INTERFACE_INCLUDE_DIRECTORIES, meaning that they
+# will be included using -isystem rather than -I.  However, this can hide
+# warnings.  Adjust the behavior to use -I instead.
+set_target_properties( edm4hep     PROPERTIES EXPORT_NO_SYSTEM ON )
+set_target_properties( edm4hepDict PROPERTIES EXPORT_NO_SYSTEM ON )
+set_target_properties( utils       PROPERTIES EXPORT_NO_SYSTEM ON )
+set_target_properties( kinematics  PROPERTIES EXPORT_NO_SYSTEM ON )
+set_target_properties( edm4hepRDF  PROPERTIES EXPORT_NO_SYSTEM ON )
+
 #--- create uninstall target ---------------------------------------------------
 include(cmake/EDM4HEPUninstall.cmake)
 
