@@ -1,11 +1,12 @@
 {
   "version": 5,
-  "prev": "c6f263c34b88582b0576afad20d63d90cdf2ce41",
-  "head": "818a8fc835884f1ace953b79da70180b0161ec43",
+  "prev": "1aafc2d085dd4445be0990a0e27bceaa2507541c",
+  "head": "cd74042e9bd596e349cdc070097189265e248551",
   "applied": [
     "nosystem",
     "cxx26",
-    "gccbug-newxx"
+    "gccbug-newxx",
+    "refresh-temp"
   ],
   "unapplied": [],
   "hidden": [],
@@ -18,6 +19,9 @@
     },
     "nosystem": {
       "oid": "f4216351526508c7db0bf20f0b51be6df7a57769"
+    },
+    "refresh-temp": {
+      "oid": "cd74042e9bd596e349cdc070097189265e248551"
     }
   }
 }
