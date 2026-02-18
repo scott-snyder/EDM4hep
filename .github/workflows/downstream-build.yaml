@@ -5,6 +5,7 @@ name: downstream-build
 
 on:
   pull_request:
+  push:
   workflow_dispatch:
 
 concurrency:
