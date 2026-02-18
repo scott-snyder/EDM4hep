@@ -1,19 +1,18 @@
 {
   "version": 5,
-  "prev": "032d829f59a52611eafeb545e537276bfad60d4b",
-  "head": "5edb0c0dbe2e1442bab82a02642eaee5e57aad1e",
+  "prev": "8013ceee892c5693c9e56a502e4b1531f10636ae",
+  "head": "815f0414c48d01dc00c919993e7c74ac49118fcc",
   "applied": [
     "nosystem",
     "cxx26",
     "gccbug-newxx",
-    "ci",
-    "refresh-temp"
+    "ci"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "ci": {
-      "oid": "8e3077431ab2e34408ef861eb53d2b3d7a13654d"
+      "oid": "815f0414c48d01dc00c919993e7c74ac49118fcc"
     },
     "cxx26": {
       "oid": "7165852d1a1c60130d2327823b744c6b68fd122a"
@@ -23,9 +22,6 @@
     },
     "nosystem": {
       "oid": "f4216351526508c7db0bf20f0b51be6df7a57769"
-    },
-    "refresh-temp": {
-      "oid": "5edb0c0dbe2e1442bab82a02642eaee5e57aad1e"
     }
   }
 }
