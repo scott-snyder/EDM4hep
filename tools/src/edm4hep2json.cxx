@@ -1,5 +1,5 @@
 #if __GNUC__ >= 16
-# pragma GCC diagnostic ignored "-Warray-bounds"
+#pragma GCC diagnostic ignored "-Warray-bounds"
 #endif
 
 #include "podio/FrameCategories.h"
