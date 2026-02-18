@@ -1,15 +1,19 @@
 {
   "version": 5,
-  "prev": "1b787ca3786b38b8b6263548c7cbf39200f31443",
-  "head": "745b1e1140aa55e5b8988c5ddfc044610400856c",
+  "prev": "55f20f60ec4deb44ac3c1de9255ba44e17331ccb",
+  "head": "8e3077431ab2e34408ef861eb53d2b3d7a13654d",
   "applied": [
     "nosystem",
     "cxx26",
-    "gccbug-newxx"
+    "gccbug-newxx",
+    "ci"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
+    "ci": {
+      "oid": "8e3077431ab2e34408ef861eb53d2b3d7a13654d"
+    },
     "cxx26": {
       "oid": "7165852d1a1c60130d2327823b744c6b68fd122a"
     },
