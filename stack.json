@@ -1,20 +1,20 @@
 {
   "version": 5,
-  "prev": "24446b4f037c3506300534e51f713eeda65ca6c9",
-  "head": "5481fa169e6891dae78c2f58bf4a05914607e63d",
+  "prev": "c6f263c34b88582b0576afad20d63d90cdf2ce41",
+  "head": "818a8fc835884f1ace953b79da70180b0161ec43",
   "applied": [
     "nosystem",
-    "gccbug-newxx",
-    "cxx26"
+    "cxx26",
+    "gccbug-newxx"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "cxx26": {
-      "oid": "5481fa169e6891dae78c2f58bf4a05914607e63d"
+      "oid": "7165852d1a1c60130d2327823b744c6b68fd122a"
     },
     "gccbug-newxx": {
-      "oid": "e71ca7bc3bbfbe2f1d96555fa0bb1e6e3288523e"
+      "oid": "818a8fc835884f1ace953b79da70180b0161ec43"
     },
     "nosystem": {
       "oid": "f4216351526508c7db0bf20f0b51be6df7a57769"
