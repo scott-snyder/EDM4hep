@@ -1,14 +1,15 @@
 {
   "version": 5,
-  "prev": "2369e8c9bd52eaefe65bcaabded1a29390703fc7",
-  "head": "14def57c591d232d9a128b7df12be2eff022573a",
+  "prev": "ec1ebc94ef7f5b9873655857caa029407172fef6",
+  "head": "745b1e1140aa55e5b8988c5ddfc044610400856c",
   "applied": [
     "nosystem",
     "cxx26",
-    "gccbug-newxx",
+    "gccbug-newxx"
+  ],
+  "unapplied": [
     "ci"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "ci": {
